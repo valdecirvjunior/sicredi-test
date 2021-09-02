@@ -1,0 +1,18 @@
+const Pauta = {
+    id: int
+    descricao: string
+    aberta: bool
+    resultado: bool
+}
+
+const Associado = {
+    id: int
+    nome: string
+}
+
+const Voto = {
+    id: int
+    idPauta: int
+    idAssociado: int
+    escolha: bool
+}
